@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 25vh;
+  background: #A7B2C4 url(../img/hero-bg.jpg) no-repeat 100% 0;
+  background-size: cover;
+}
+
+.header__info {
+  max-width: 630px;
+  padding: 0 15px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.header__logo {
+  margin: 0 auto;
+  width: 69px;
+  height: 71px;
+  text-indent: -9999px;
+  background: url(../img/logo.svg) no-repeat 50% 50%;
+  background-size: contain;
+
+}
+.header__title {
+  font-size: 54px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  line-height: normal;
+}
+
+.header__text {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  line-height: 29px;
+}
