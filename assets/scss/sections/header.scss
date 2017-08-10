@@ -1,0 +1,49 @@
+.header {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 25vh;
+  background: $c-blue-gray url("../img/hero-bg.jpg") no-repeat 100% 0;
+  background-size: cover;
+
+  &__info {
+    max-width: 630px;
+    padding: 0 15px;
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+  }
+
+  &__logo {
+    margin: 0 auto;
+    width: 69px;
+    height: 71px;
+    text-indent: -9999px;
+    background: url("../img/logo.svg") no-repeat 50% 50%;
+    background-size: contain;
+  }
+
+  &__title {
+    font-size: 54px;
+    font-weight: 700;
+    letter-spacing: 0.16em;
+    line-height: normal;
+  }
+
+  &__text {
+    font-size: 15px;
+    font-weight: 400;
+    letter-spacing: 0.06em;
+    line-height: 29px;
+  }
+
+  &__scroll {
+    display: block;
+    position: absolute;
+    bottom: 10vh;
+    margin: 0 auto;
+    width: 23px;
+    height: 37px;
+    background: url("../img/scroll.svg");
+  }
+}

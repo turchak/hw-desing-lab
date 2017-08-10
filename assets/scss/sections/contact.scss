@@ -1,0 +1,22 @@
+.contact {
+  padding-top: 138px;
+
+  &__button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 395px;
+    height: 58px;
+    margin: 42px auto 50px;
+    background: $c-dark-gray;
+    border: solid 2px $c-dark-gray;
+    text-decoration: none;
+
+    &-text {
+      font-size: 16px;
+      letter-spacing: 2.6px;
+      text-transform: uppercase;
+      color: $c-white;
+    }
+  }
+}

@@ -1,0 +1,31 @@
+.wwd {
+  padding: 120px 20px;
+
+  &__item {
+    padding: 50px 0;
+    &-title {
+      font-size: 20px;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 0.16em;
+    }
+    &-text {
+      margin: 0;
+      font-size: 14px;
+      line-height: 26px;
+    }
+    &-icon {
+      width: 80px;
+      fill: $c-dark-gray;
+      &--desing {
+        height: 83px;
+      }
+      &--dev {
+        height: 76px;
+      }
+      &--pm {
+        height: 91px;
+      }
+    }
+  }
+}

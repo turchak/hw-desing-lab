@@ -1,0 +1,45 @@
+.works {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+  list-style: none;
+  &__item {
+    position: relative;
+    &:nth-child(3n+1) {
+      width: 558 / 1920 * 100%;
+      padding-right: 10px;
+    }
+    &:nth-child(3n+2) {
+      width:  812 / 1920 * 100%;
+      padding-right: 10px;
+    }
+    &:nth-child(3n+3) {
+      width:  550 / 1920 * 100%;
+    }
+    &:nth-child(n+4) {
+      margin-top: 10px;
+    }
+  }
+  &__link {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: $c-white;
+  }
+  &__img {
+    display: block;
+    width: 100%;
+    object-fit: cover;
+  }
+  &__link {}
+  &__title {
+    position: absolute;
+    top: 71%;
+    transform: translateY(-50%);
+    left: 47px;
+    display: block;
+    text-transform: uppercase;
+    font-size: 34px;
+  }
+}

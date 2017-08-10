@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Lato, sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #3c3c3c;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  min-height: 100vh;
+  padding-top: 25vh;
+  background: #A7B2C4 url(../img/hero-bg.jpg) no-repeat 100% 0;
+  background-size: cover;
+}
+
+.header__info {
+  max-width: 630px;
+  padding: 0 15px;
+  color: white;
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.header__logo {
+  margin: 0 auto;
+  width: 69px;
+  height: 71px;
+  text-indent: -9999px;
+  background: url(../img/logo.svg) no-repeat 50% 50%;
+  background-size: contain;
+}
+
+.header__title {
+  font-size: 54px;
+  font-weight: 700;
+  letter-spacing: 0.16em;
+  line-height: normal;
+}
+
+.header__text {
+  font-size: 15px;
+  font-weight: 400;
+  letter-spacing: 0.06em;
+  line-height: 29px;
+}
+
+.header__scroll {
+  display: block;
+  position: absolute;
+  bottom: 10vh;
+  margin: 0 auto;
+  width: 23px;
+  height: 37px;
+  background: url(../img/scroll.svg);
+}
+
+
+/*box*/
+
+.about {
+  padding: 160px 20px;
+}
+
+.services {
+  padding: 145px 20px 110px;
+  background: url(../img/image.jpg) no-repeat 50% 50%;
+  background-size: cover;
+}
+.wwd {
+  padding: 120px 20px 115px;
+}
+.wwd__item-icon {
+  fill: #999;
+
+}
+.wwd__item-icon:hover {
+  fill: #3c3c3c;
+}
+.box {
+  position: relative;
+  max-width: 900px;
+  margin: 0 auto;
+  padding: 75px 175px 25px;
+  border: 2px solid #3c3c3c;
+  border-top: 0;
+  text-align: center;
+}
+
+.box--light {
+  color: #fff;
+  border-color: #fff;
+}
+
+.box__title {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  margin: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-size: 34px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  font-weight: bold;
+  transform: translateY(-50%);
+}
+
+.box__title::before, .box__title::after {
+  content: "";
+  display: block;
+  width: 25%;
+  height: 2px;
+  background: #3c3c3c;
+}
+
+.box__title::before {
+  margin-left: -2px;
+}
+
+.box--light .box__title::before, .box--light .box__title::after {
+  background: #fff;
+}
+
+.box__title::after {
+  margin-right: -2px;
+}
